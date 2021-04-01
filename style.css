@@ -1,0 +1,107 @@
+body{
+  /* background-color: #cce6ff; */
+  background-color: white;
+  margin: 0;
+}
+
+h1{
+	font-family:Verdana;
+	text-align:center;
+  padding-bottom: 0px;
+}
+
+h2{
+	font-family:Verdana;
+	text-align:center;
+  padding-bottom: 0px;
+}
+
+.container{
+  margin: auto;
+  width: 1200px;
+}
+
+.name{
+  /* border: 6px solid #ff7733; */
+  width: 100%;
+  padding-bottom: none;
+  text-align: center;
+  margin: auto;
+  background-position: center;
+  background-size: cover;
+ 
+  background-image:  linear-gradient(rgba(150, 150, 150, 0.6), rgba(150, 150, 150, 0.6)), url('artem-sapegin-b18TRXc8UPQ-unsplash.jpg');
+  padding: 100px 0;
+}
+
+.name h1{
+  color: #ebc4b1;
+  font-size: 45px;
+  margin: 0;
+}
+
+.name h2{
+  color: white;
+}
+
+.timebox{
+  /* border: 6px solid #ff7733; */
+  width:45%;
+  font-family: Verdana;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 0px;
+  margin-top: 0;
+  margin-bottom: 50px;
+  margin-left:auto;
+  margin-right:auto;
+  box-sizing: border-box;
+}
+
+.minutes{
+  padding-top: 0px;
+  padding-bottom: 40px;
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom:auto;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.btn {
+  width: 300px;
+  height: 65px;
+  background-color: #ff7733;
+  color: white;
+  padding: 30px 25px;
+  border-radius: 4px;
+  border-style: none;
+  /* display: inline-block; */
+  text-decoration: none;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: .3s;
+  box-shadow: 0 0 16px rgb(187, 183, 181);
+  font-size: large;
+  padding-top: 22px;
+
+}
+
+.button:hover {
+  background-color: #ff7733d2;
+  color: white;
+
+}
+
+.footer {
+  background: #404042;
+  text-align: center;
+  padding: 24px 0;
+  margin-top: 10%;
+  
+}
+
+.footer p {
+  color: rgb(214, 207, 207);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
