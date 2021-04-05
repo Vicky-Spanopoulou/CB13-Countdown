@@ -29,25 +29,9 @@ function startTimer(duration, display) {
     setInterval(timer, 1000);
 }
 
-// window.onload = function()
-// window.onclick = function()
-
 
 function fifteenTimer() {
     var fifteenMinutes = 60 * 15,
     display = document.querySelector('#time');
     startTimer(fifteenMinutes, display);
-};
-
-function tenTimer() {
-    var tenMinutes = 60 * 10,
-    display = document.querySelector('#time');
-    startTimer(tenMinutes, display);
-};
-
-function twentyTimer() {
-    var twentyMinutes = 60 * 20,
-    display = document.querySelector('#time');
-    startTimer(twentyMinutes, display);
-};
-
+}
